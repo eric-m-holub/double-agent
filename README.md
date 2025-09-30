@@ -4,9 +4,9 @@
 
 ## Background
 
-Agent DVR is security monitoring software. Versions <= 6.6.1.0 are vulnerable to path traversal on the 'addrecording' API call. This can be combined with the 'streamFile.cgi' API call to fetch local files. Both of these calls are unauthenticated, and work even if a user has specified a username/password in the UI.
+Agent DVR is security monitoring software. Versions <= 6.6.1.0 are vulnerable to local path traversal on the 'addrecording' API call. This can be combined with the 'streamFile.cgi' local API call to fetch local files. Both of these calls are unauthenticated, and work even if a user has specified a username/password in the UI. I haven't tested this against a remote (paid) Agent DVR instance. It probably won't work.
 
-I've tested this against the fresh installs of the latest version (6.6.1.0) as well as version 6.2.7.0. The exploit works against both Linux and Windows, but the --os flag must be specified accordingly when running.
+I've tested this against fresh installs of the latest version (6.6.1.0) as well as version 6.2.7.0. The exploit works against both Linux and Windows, but the --os flag must be specified accordingly when running.
 
 ## Usage
 
