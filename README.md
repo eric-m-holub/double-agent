@@ -19,5 +19,5 @@ There are no fancy imports, so you should be able to run the script with out-of-
 ## Links
 
 - [Agent DVR](https://www.ispyconnect.com/)
-- [Agent DVR API Docs](https://ispysoftware.github.io/Agent_API/)
+- [Agent DVR Local API Docs](https://ispysoftware.github.io/Agent_API/)
 - [My Website!](https://www.ericholub.com)
