@@ -12,7 +12,7 @@ I've tested this against the fresh installs of the latest version (6.6.1.0) as w
 
 To run Double Agent:
 ```
-doubleagent.py [-h] --target TARGET [--port PORT] --file FILE [--os {windows,linux}]
+python3 doubleagent.py [-h] --target TARGET [--port PORT] --file FILE [--os {windows,linux}]
 ```
 There are no fancy imports, so you should be able to run the script with out-of-the-box Python3.
 
