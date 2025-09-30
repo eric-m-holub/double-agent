@@ -14,6 +14,7 @@ To run Double Agent:
 ```
 doubleagent.py [-h] --target TARGET [--port PORT] --file FILE [--os {windows,linux}]
 ```
+There are no fancy imports, so you should be able to run the script with out-of-the-box Python3.
 
 ## Links
 
