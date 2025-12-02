@@ -8,6 +8,8 @@ Agent DVR is security monitoring software. Versions <= 6.6.1.0 are vulnerable to
 
 I've tested this against fresh installs of the latest version (6.6.1.0) as well as version 6.2.7.0. The exploit works against both Linux and Windows, but the --os flag must be specified accordingly when running.
 
+This vulnerability is included within [CVE-2025-63408](https://nvd.nist.gov/vuln/detail/CVE-2025-63408).
+
 ## Usage
 
 To run Double Agent:
